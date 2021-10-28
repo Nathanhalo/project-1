@@ -123,13 +123,21 @@ p {
     font-family: 'Brush Script MT', cursive;
     margin: 30px;
     color: #333;
+    font-size: 17px;
+    line-height: 30px;
 }
   
+span{
+    margin: 30px;
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+}
 .name {
     position: absolute;
-    left:200px;
-    top:250px;
+    left:195px;
+    top:300px;
     color: #333;
+    font-size: 18px;
 }
   
 .back {
