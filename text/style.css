@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Urban');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.full-page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(campfire.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.login-page{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    margin: 8% auto;
+    margin-top: 8% auto;
+    margin-bottom: 8% auto;
+    padding: 10px;
+    background: rgba(225, 225, 225, 0.85) ;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 9px;
+    /* opacity: 85%; */
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #DF8601;
+    outline: none;
+    background: transparent;
+}
+
+.checkbox{
+    margin: 30px 10px 34px 0px;
+}
+
+.input span{
+    font-size: 15px;
+}
+
+.submit-btn h1{
+    position: relative;
+    margin: 10px 0;
+}
+
+.submit-btn{
+    width: 50%;
+    height: 20%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #F3C693;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    translate: 0.4s;
+}
+
+.submit-btn:hover{
+    background: #fff;
+}
+
+.button-box 
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.toggle-btn h3{
+    font-family: Verdana, sans-serif;
+}
+
+.toggle-btn{
+    padding: 5px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.toggle-btn:hover{
+    background: rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
